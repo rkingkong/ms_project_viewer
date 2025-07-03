@@ -1,0 +1,16 @@
+{
+    "name": "gantt-chart-viewer",
+    "version": "1.0.0",
+    "description": "MS Project Style Gantt Chart Viewer for AWS Lambda",
+    "main": "index.js",
+    "scripts": {
+      "test": "node index.js",
+      "zip": "zip -r function.zip index.js package.json node_modules"
+    },
+    "dependencies": {
+      "aws-sdk": "^2.1062.0"
+    },
+    "engines": {
+      "node": ">=14.0.0"
+    }
+  }
